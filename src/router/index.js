@@ -5,6 +5,7 @@ import index from '@/pages/index'
 import defaultPage from '@/layout/default.vue'
 import canvasPage from '@/pages/optimize/canvas'
 import canvasNoCache from '@/pages/optimize/canvasNoCache'
+import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
@@ -32,6 +33,10 @@ export default new Router({
         path:'/optimize/canvasNoCache',
         name:'canvasNoCache',
         component:canvasNoCache
+      },{
+        path:'/helloworld',
+        name:'helloWorld',
+        component:HelloWorld        
       }
       ]
     }

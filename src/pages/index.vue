@@ -4,6 +4,7 @@
             <div>
                 <router-link to="/algorithm/qs">Quick sort</router-link>
                 <router-link to="/optimize/canvas">Canvas</router-link>
+                <router-link to="/helloworld">Hello World</router-link>
             </div>
         </el-col>
     </el-row>
